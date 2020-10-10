@@ -1,0 +1,23 @@
+w konsoli:
+- npm init
+nazwac test
+enter enter enter ... do konca
+-gulp -v
+-npm install --save-dev gulp
+-touch gulpfile.js
+
+
+potem wklejam do pliku js: const gulp = require('gulp');
+ 
+function firstTask(done) {
+  console.log('Pierwsze zadanie');
+  done();
+}
+ 
+exports.firstTask = firstTask;
+exports.default = gulp.parallel(firstTask);
+
+- gulp
+
+
+npm - node package 
